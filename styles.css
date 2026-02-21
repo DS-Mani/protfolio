@@ -267,17 +267,28 @@ a {
   overflow: hidden;
 }
 
-.flow-dot {
+.flow-truck {
   position: absolute;
   top: 50%;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--accent-2);
+  width: 18px;
+  height: 10px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, var(--accent-2), rgba(157, 255, 95, 0.7));
   transform: translate(-10px, -50%);
   animation: flowMove 2.4s linear infinite;
   animation-delay: var(--delay);
   box-shadow: 0 0 10px rgba(73, 242, 181, 0.8);
+}
+
+.flow-truck::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 4px;
+  width: 10px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .flow-footer {
@@ -785,7 +796,7 @@ a {
     animation-duration: 0.01ms;
   }
 
-  .flow-dot,
+  .flow-truck,
   .flow-status-dot {
     animation-duration: 0.01ms;
   }
