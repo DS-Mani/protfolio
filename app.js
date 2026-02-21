@@ -131,7 +131,7 @@ const runPipeline = document.getElementById("runPipeline");
 const copyEmail = document.getElementById("copyEmail");
 const progressBar = document.getElementById("progressBar");
 const ambientLayer = document.querySelector(".ambient");
-const asciiPanel = document.querySelector(".ascii-panel");
+const flowPanel = document.querySelector(".flow-panel");
 
 let activeFilter = "All";
 let revealObserver;
@@ -376,7 +376,7 @@ const setupReveal = () => {
 
 const parallaxTargets = [
   { el: ambientLayer, speed: 0.06 },
-  { el: asciiPanel, speed: 0.14 },
+  { el: flowPanel, speed: 0.14 },
 ];
 
 const bubbleTerms = [
