@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Manikanta Reddy Yerolla | Data Analyst & Data Engineering Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+    <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+    <header class="hero" id="top">
+      <nav class="nav">
+        <div class="logo">MY</div>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#skills">Skills</a>
+          <a href="#demos">Demos</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <section class="hero-content" data-reveal>
+        <div class="hero-topline">
+          <span>Available for 2026 roles</span>
+          <span>United States · Remote / Hybrid</span>
+        </div>
+        <div class="hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">Data Analyst · Data Engineering Support</p>
+            <h1>Manikanta Reddy Yerolla</h1>
+            <p class="lead">
+              Motivated data professional focused on reliable pipelines, clean analytics, and
+              dashboards that drive decisions.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">Explore Work</a>
+              <a class="btn ghost" href="#contact">Let’s Talk</a>
+            </div>
+          </div>
+          <div class="ascii-panel" aria-hidden="true">
+            <div class="data-stream">
+              <div class="stream-row">
+                <span>Cloud</span><span>Snowflake</span><span>dbt</span><span>Airflow</span><span>Python</span><span>SQL</span><span>Tableau</span><span>Azure</span><span>ETL</span><span>Quality</span><span>Cloud</span><span>Snowflake</span><span>dbt</span><span>Airflow</span><span>Python</span><span>SQL</span><span>Tableau</span><span>Azure</span><span>ETL</span><span>Quality</span>
+              </div>
+              <div class="stream-row reverse">
+                <span>Pipelines</span><span>Analytics</span><span>Reliability</span><span>Insights</span><span>Dashboards</span><span>Freshness</span><span>Metrics</span><span>Orchestration</span><span>Ops</span><span>Governance</span><span>Pipelines</span><span>Analytics</span><span>Reliability</span><span>Insights</span><span>Dashboards</span><span>Freshness</span><span>Metrics</span><span>Orchestration</span><span>Ops</span><span>Governance</span>
+              </div>
+            </div>
+            <pre class="ascii-name">
+/ M A N I K A N T A
+/ R E D D Y
+/ Y E R O L L A
+            </pre>
+            <div class="ascii-footer">
+              <span>Live data stream</span>
+              <span>Updated just now</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="impact" data-reveal data-stagger>
+        <div class="impact-card stagger-item" data-reveal>
+          <p class="impact-label">Pipelines Built</p>
+          <p class="impact-value">9+</p>
+          <p class="impact-meta">Python · SQL · Azure</p>
+        </div>
+        <div class="impact-card stagger-item" data-reveal>
+          <p class="impact-label">dbt Models</p>
+          <p class="impact-value">45</p>
+          <p class="impact-meta">Medallion architecture</p>
+        </div>
+        <div class="impact-card stagger-item" data-reveal>
+          <p class="impact-label">Workflow Success</p>
+          <p class="impact-value">98%</p>
+          <p class="impact-meta">Airflow reliability</p>
+        </div>
+        <div class="impact-card stagger-item" data-reveal>
+          <p class="impact-label">Experience</p>
+          <p class="impact-value">3+ yrs</p>
+          <p class="impact-meta">Analytics + engineering</p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section" id="projects">
+        <div class="section-header" data-reveal>
+          <h2>Project Explorer</h2>
+          <p>Filter work by theme, search, and open a full case study.</p>
+        </div>
+
+        <div class="project-controls" data-reveal>
+          <div class="filter-group" id="filterGroup"></div>
+          <div class="search-group">
+            <input
+              type="search"
+              id="projectSearch"
+              placeholder="Search projects, tools, or outcomes"
+              aria-label="Search projects"
+            />
+          </div>
+        </div>
+
+        <div class="project-grid" id="projectGrid" data-reveal data-stagger></div>
+      </section>
+
+      <section class="section" id="timeline">
+        <div class="section-header" data-reveal>
+          <h2>Career Timeline</h2>
+          <p>Slide through milestones to see focus areas and impact.</p>
+        </div>
+
+        <div class="timeline" data-reveal>
+          <input
+            type="range"
+            id="timelineRange"
+            min="2021"
+            max="2026"
+            step="1"
+            value="2025"
+            aria-label="Timeline year"
+          />
+          <div class="timeline-track" id="timelineTrack" data-stagger></div>
+        </div>
+
+        <div class="timeline-detail" id="timelineDetail" data-reveal></div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-header" data-reveal>
+          <h2>Skills & Tooling</h2>
+          <p>Focused on end-to-end analytics and modern data stacks.</p>
+        </div>
+
+        <div class="skills-grid" data-reveal data-stagger>
+          <div class="skill-card stagger-item" data-reveal>
+            <h3>Data Query & Processing</h3>
+            <p>SQL, Python, PySpark</p>
+          </div>
+          <div class="skill-card stagger-item" data-reveal>
+            <h3>BI & Visualization</h3>
+            <p>Tableau, Power BI, Excel</p>
+          </div>
+          <div class="skill-card stagger-item" data-reveal>
+            <h3>Warehousing</h3>
+            <p>Snowflake, PostgreSQL, MySQL</p>
+          </div>
+          <div class="skill-card stagger-item" data-reveal>
+            <h3>Orchestration</h3>
+            <p>Airflow, dbt, Testing basics</p>
+          </div>
+          <div class="skill-card stagger-item" data-reveal>
+            <h3>Cloud & Dev Tools</h3>
+            <p>Azure, AWS, Git, Docker, GitHub Actions</p>
+          </div>
+          <div class="skill-card stagger-item" data-reveal>
+            <h3>Work Practices</h3>
+            <p>Agile/Scrum, Documentation, Problem-solving</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="demos">
+        <div class="section-header" data-reveal>
+          <h2>Interactive Demos</h2>
+          <p>Hands-on snapshots of how I think about data quality and pipelines.</p>
+        </div>
+
+        <div class="demo-grid" data-reveal data-stagger>
+          <div class="demo-card stagger-item" id="qualityDemo" data-reveal>
+            <div class="demo-header">
+              <h3>Data Quality Control</h3>
+              <p>Toggle checks to see reliability score changes.</p>
+            </div>
+            <div class="quality-score">
+              <div class="score-ring">
+                <span id="qualityScore">72</span>
+                <small>Reliability</small>
+              </div>
+              <div class="score-breakdown">
+                <label>
+                  <input type="checkbox" checked data-score="30" />
+                  Null checks
+                </label>
+                <label>
+                  <input type="checkbox" checked data-score="25" />
+                  Uniqueness checks
+                </label>
+                <label>
+                  <input type="checkbox" checked data-score="17" />
+                  Freshness checks
+                </label>
+                <label>
+                  <input type="checkbox" data-score="18" />
+                  Business rules
+                </label>
+                <label>
+                  <input type="checkbox" data-score="10" />
+                  Drift monitoring
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="demo-card stagger-item" id="pipelineDemo" data-reveal>
+            <div class="demo-header">
+              <h3>Pipeline Run Simulator</h3>
+              <p>Trigger a run to watch orchestration steps.</p>
+            </div>
+            <div class="pipeline-steps" id="pipelineSteps"></div>
+            <button class="btn primary" id="runPipeline">Run Pipeline</button>
+            <div class="pipeline-log" id="pipelineLog"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="section-header" data-reveal>
+          <h2>Education</h2>
+          <p>Formal grounding in information technology and analytics.</p>
+        </div>
+        <div class="education-card" data-reveal>
+          <h3>MS in Information Technology</h3>
+          <p>St. Francis College, USA · Jan 2024 – May 2025</p>
+        </div>
+      </section>
+    </main>
+
+    <section class="section contact" id="contact">
+      <div class="section-header" data-reveal>
+        <h2>Let’s Connect</h2>
+        <p>Reach out for data analytics, pipeline support, or dashboard work.</p>
+      </div>
+      <div class="contact-card" data-reveal>
+        <div>
+          <p class="contact-label">Email</p>
+          <p class="contact-value">manireddyyerolla@gmail.com</p>
+        </div>
+        <button class="btn ghost" id="copyEmail">Copy Email</button>
+      </div>
+      <div class="contact-card" data-reveal>
+        <div>
+          <p class="contact-label">Phone</p>
+          <p class="contact-value">551-261-2168</p>
+        </div>
+        <a class="btn ghost" href="tel:15512612168">Call</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Based in the United States · Open to data analytics & engineering roles</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <div class="modal" id="projectModal" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close" id="closeModal" aria-label="Close">×</button>
+        <div id="modalBody" class="modal-body"></div>
+      </div>
+    </div>
+  </body>
+</html>
